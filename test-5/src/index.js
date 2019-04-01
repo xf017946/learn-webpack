@@ -11,7 +11,7 @@ function component() {
   btn.onclick = printMe
 
   element.appendChild(btn)
-
+  console.log(element)
   return element;
 }
 
